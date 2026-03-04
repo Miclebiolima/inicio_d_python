@@ -1,3 +1,15 @@
 # operadores
+
 # soma (+) (-) ( * multiplicação) ( / divisão ) 5+(3*4)-2
 print ("5+(3*4)-2")
+
+#operadores p2
+
+#definir a funcção (multiplicar por dois)
+def multiplica_por_dois(numero):
+    #definir o que sera retornado
+    return numero * 2
+#definir  o valor da variavel resultado
+resultado = multiplica_por_dois(7)
+#retornar resultados gerados pelo programa
+print(resultado)
