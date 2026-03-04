@@ -1,0 +1,20 @@
+# programa para criar um "curriculo" + resumo
+numcurriculos = int(input("quantos curiculos serão feitos : "))
+for i in range(numcurriculos):
+    nome = input("Nome completo : ")
+    CPF = input("CPF : ")
+    estadocivil = input("Estado civil : ")
+    endereço = input("Endereço (cidade, bairro, rua, quadra, casa e ponto de referencia ) : " )
+    telefone = input("Numero para contato : " )
+    email = input("Email para contato : " )
+    adicionais = input("Adicionar formações, funçoes ecercidas etc ? (sim/não) ")
+    if adicionais == "sim":
+        credenciais = input("Credenciais proficionais : ")
+    print(f"Meu nome é {nome}")
+    print(f"Sou usuario do CPF {CPF}")
+    print(f"Meu estado civil é {estadocivil} ")
+    print(f"Moro em {endereço}")
+    print(f"Meu numero de contato é o {telefone}")
+    print(f"MEU email para contato é {email}")
+    if adicionais =="sim":
+      print(f"Minhas credenciasis são {credenciais}")
