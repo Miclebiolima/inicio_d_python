@@ -1,0 +1,16 @@
+receitainicial = int(input("De o valor inicial da receita : "))
+
+# valor debitado
+debito = int(input("De o valor do debito : "))
+if debito >= 0 :
+  resultadofinal = receitainicial - debito
+
+# valor creditado
+credito = int(input("De o valor do credito : "))
+if credito >= 0 :
+  final = resultadofinal + credito
+
+print(f"o valor da receita inicial é : {receitainicial}")
+print(f"o valor do debito é : {debito}" )
+print(f"o valor do credito é : {credito}" )
+print(f"o valor final da receita é : {final} ")
