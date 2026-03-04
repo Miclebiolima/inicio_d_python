@@ -1,0 +1,3 @@
+# operadores
+# soma (+) (-) ( * multiplicação) ( / divisão ) 5+(3*4)-2
+print ("5+(3*4)-2")
