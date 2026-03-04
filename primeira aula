@@ -1,0 +1,3 @@
+# o começo de tudo, usa "#" pra comentarios
+# print = retorno/resposta
+print ("hello word")
