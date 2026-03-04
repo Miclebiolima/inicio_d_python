@@ -1,0 +1,12 @@
+#tipos de variaveis
+
+#variavel do tipo string
+nome = "programação de compitadores"
+
+#variavel do tipo inteiro
+idade = 80
+
+#variavel do tipo flout
+valor = 50.05
+
+type(valor)
