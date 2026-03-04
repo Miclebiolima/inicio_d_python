@@ -1,0 +1,17 @@
+#verifica se o ano é bisexto
+#definir função que verifica o ano bissexto
+def verificador_ano_bissexto (ano):
+    #definir condições para o funcionamento do programa
+    if (ano % 4 == 0 and ano% 100 != 0) or (ano % 400 == 0):
+        return True
+    else:
+        return False
+#definir a variavel ano
+ano = int(input("digite um ano : "))
+#definir condições para definir um ano bissexto
+if verificador_ano_bissexto (ano):
+    #retornar resultados gerados pelo programa caso positivo
+    print("SIM")
+    #retornar resultados gerados pelo programa caso negativo
+else:
+    print("NÃO")
