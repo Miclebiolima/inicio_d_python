@@ -1,0 +1,6 @@
+# string e operações textuais
+a="Miclébio" #primeiro nome
+b="Gonçalves" #segundo nome
+c="18" #idade
+soma=a+b+c
+print("olá, o meu nome é:",a , "o meu segundo nome é:",b , "e tenho",c , "anos")
