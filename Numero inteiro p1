@@ -1,2 +1,7 @@
+# N inteiro p1
 numero_inteiro=int(input("informe um numero inteiro"))
 print (numero_inteiro)
+
+# N inteiro p2
+numero_inteiro=int(input("informe um numero inteiro: " ))
+print(f"foi informado o valor ")
