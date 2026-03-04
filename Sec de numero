@@ -1,0 +1,24 @@
+num1 = int(input( "digite um número" ))
+num2 = int(input( "digite um segundo numero"))
+num3 = int(input( "digite um terceiro numero"))
+if num1 >= num2 and num1 >= num3:
+ maior = num1
+elif num2 >= num1 and num2 >= num3:
+ maior = num2
+else:
+ maior = num3
+if num1 <= num2 and num1 <= num3:
+ menor = num1
+elif num2 <= num1 and num2 <= num3:
+ menor = num2
+else:
+ menor = num3
+if (num1 == maior or num1 == menor) and (num2 == maior or num2 == menor):
+ meio = num3
+elif (num2 == menor or num2 == maior) and (num3 == menor or num3 == maior):
+ meio = num1
+else:
+ meio = num2
+print (f"o número {maior} é o maior")
+print (f"o número {meio} é o do meio")
+print (f"o número {menor} é o menor")
