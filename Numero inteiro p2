@@ -1,2 +1,0 @@
-numero_inteiro=int(input("informe um numero inteiro: " ))
-print(f"foi informado o valor ")
